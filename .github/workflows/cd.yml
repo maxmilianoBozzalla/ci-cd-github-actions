@@ -38,7 +38,7 @@ jobs:
           rsync -avz -e "ssh -o StrictHostKeyChecking=no" \
             --exclude='.git' \
             --exclude='node_modules' \
-            ./ ubuntu@ec2-54-145-24-29.compute-1.amazonaws.com:/var/www/maximiliano
+            ./ ubuntu@ec2-54-145-24-29.compute-1.amazonaws.com:/var/www/maximiliano/
 
       - name: Instalar las librerias en el servidor
         run: |
