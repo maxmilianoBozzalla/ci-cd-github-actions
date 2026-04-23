@@ -10,7 +10,7 @@ app.get("/clients", (req, res) => {
 })
 
 app.get("/not_found", (req, res) => {
-    res.status(404).json({ message: "Error not found "});
+    res.status(404).json({ message: "Error not found"});
 })
 
 module.exports = app;
