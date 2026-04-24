@@ -46,7 +46,7 @@ jobs:
       - name: Instalar las librerias en el servidor
         run: |
           ssh -o StrictHostKeyChecking=no ubuntu@ec2-54-145-24-29.compute-1.amazonaws.com \
-            "cd /var/www/api_devops && npm install"
+            "cd /var/www/maximiliano/ && npm install"
 
       - name: Reiniciar PM2 correctamente
         run: |
