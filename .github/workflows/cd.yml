@@ -21,7 +21,7 @@ jobs:
         run: npm install
       
       - name: Ejecutar Linters
-      - run: npm run lint app.js
+        run: npm run lint app.js
 
       - name: Ejecutar pruebas
         run: npm test
